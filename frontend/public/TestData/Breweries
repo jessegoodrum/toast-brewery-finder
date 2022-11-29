@@ -1,0 +1,49 @@
+Brewery Template
+//breweryID: (4 digit int?)
+//barName: (string)
+//breweryOwner: (string - beerLover userID)
+//hours: (string)
+//address: (string)
+//beerList: [beer array]
+//contactEmail: (string)
+//pictureUrl: (string)
+//about: (string)
+
+breweryID: test01
+barName: Moe's Tavern
+breweryOwner: Moe Szyslak
+hours: 4pm-2am weekdays, sunday 12pm-10pm
+address: Main st, Springfield MA
+beerList: ["Duff", "Duff Lite", "Duff Gold", "Flaming Moe"]
+contactEmail: StopPrankCallingMe@Compuserve.com
+pictureUrl: https://bloximages.chicago2.vip.townnews.com/insidenova.com/content/tncms/assets/v3/editorial/f/7b/f7b688ca-3dfa-11ec-a100-3711edf206cc/6184c3f0d4856.image.jpg?resize=600%2C426
+about: Where the elite meet to fete. We had an Aerosmith concert one time. Could happen again, I ain't saying for sure.
+breweryID: test02
+barName: Cheers
+breweryOwner: Ted Danson
+hours: 8pm-8:30pm thursdays on NBC
+address: NBC Thursday night line-up, Boston
+beerList: ["Sam Adams", "Wachusett Seasonal", "Downeast Cider"]
+contactEmail: WeKnowYourName@AOL.com
+pictureUrl: https://imageio.forbes.com/specials-images/imageserve/495572400/Cheers-Boston-Beacon-Hill--formerly-the-Bull-and-Finch-Pub----/960x0.jpg?format=jpg&width=960
+about: Making your way in the world today takes everything you've got. Taking a break from all your worries sure would help a lot. Wouldn't you like to get away? Sometimes you want to go where everybody knows your name.
+
+breweryID: test03
+barName: Mos Eisley Cantina
+breweryOwner: Chalmun
+hours: 24/7
+address: Mos Eisley Spaceport, near landing bay 94.
+beerList: [Yatooni Boska, Hutt's Delight, Blue Milk Stout]
+contactEmail: WeDontServeDroids@holo.net
+pictureUrl: https://i0.wp.com/theretronetwork.com/wp-content/uploads/2020/05/exterior.jpg?resize=300%2C214&ssl=1
+about: No droids, no blasters, no questions asked. Nightly performance by Fingrin Dan and the Modal Nodes.
+
+breweryID: test04
+barName: McAnally's Pub
+breweryOwner: Mac McAnally
+hours: Always Open
+address: Basement of the Butcher building, 13th st, chicago.
+beerList: [Guinness, Mac's Ale, water]
+contactEmail: 773-555-1313
+pictureUrl: https://static.wikia.nocookie.net/mythara/images/5/5f/McAnallysPub.jpg/revision/latest?cb=20160902063746
+about: Accorded Neutral Territory. Yearly end of season Superb Owl party hosted by the Red Court, with guest bartender Jackie Daytona.

@@ -1,0 +1,105 @@
+Beer Detail Template
+//beerID: 
+//beerName: 
+//beerType: 
+//beerABV: 
+//beerPicUrl:
+//desc:
+
+***Moe's tavern***
+beerID: moe001
+beerName: "Duff"
+beerType: IPA
+beerABV: 4.6%
+beerPicUrl: https://pyxis.nymag.com/v1/imgs/1ef/403/49499034ebf7c1fc90c366162319691a36-13-duff-beer.rsquare.w700.jpg
+desc: Sweet nectar of the gods. Endorsed by Duffman himself.
+
+beerID: moe002
+beerName: "Duff Lite"
+beerType: lite beer
+beerABV: 1.6%
+beerPicUrl: https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0e/d8/85/f5/duff-beer.jpg?w=200&h=-1&s=1
+desc: Sweet and less filling nectar of the gods. Endorsed by Duffman himself. Ignore that lower ABV, that's a typo. It should be 0.6%.
+
+beerID: moe003
+beerName: "Duff Gold"
+beerType: Pilsner
+beerABV: 5.2%
+beerPicUrl: https://i.ebayimg.com/images/g/q~wAAOSwleBfpxFj/s-l500.jpg
+desc: Sweet golden nectar of the gods. Endorsed by Duffman himself.
+
+beerID: moe004
+beerName: "Flaming Moe"
+beerType: seasonal
+beerABV: 8.9%
+beerPicUrl: https://alleged2bdelicious.files.wordpress.com/2010/07/flamingmoe1.gif
+desc: Sweet nectar of the gods. Not endorsed by Duffman himself. Only available during cold and flu season, served flambe.
+
+***Cheers**
+
+beerID: cheers001
+beerName: Sam Adams
+beerType: Lager
+beerABV: 5.0%
+beerPicUrl:
+desc: Boston Lager helped lead the American craft beer revolution, reviving a passion for full-flavored, high quality brews
+
+beerID: cheers002
+beerName: "Wachusett Seasonal"
+beerType: IPA
+beerABV: 6.6%
+beerPicUrl: https://assets.untappd.com/site/beer_logos_hd/beer-4458683_fd241_hd.jpeg
+desc: This flavorful small batch ale is the perfect balance of fresh pumpkins and a variety of spices to celebrate the season.
+
+beerID: cheers003
+beerName: "Downeast Cider"
+beerType: Hard Cider
+beerABV: 4.3%
+beerPicUrl: https://www.beeruniversestore.com/wp-content/uploads/2021/02/Downeast_9-pack_OriginalBlend.png
+desc: Made with hand-pressed apple cider from the Berkshires, light and crisp with an extra touch of cinnamon.
+
+***Mos Eisley Cantina***
+
+beerID: mec001
+beerName: "Yatooni Boska"
+beerType: Stout
+beerABV: 9.9%
+beerPicUrl: https://static.wikia.nocookie.net/starwars/images/c/c8/Bloody_Rancor.jpg/revision/latest?cb=20210320194841
+desc: Made from the fermented sweat of dewbacks. The scaly texture makes for a memorable experience. Twice.
+
+beerID: mec002
+beerName: "Hutt's Delight"
+beerType: pilsner
+beerABV: 7.2%
+beerPicUrl: https://qph.fs.quoracdn.net/main-qimg-4633dc7e6032bf5b0653bc74b1a42d37
+desc: A colorful slurry of aquatic organisms, mostly scraped from under Jabba's throne. When Jabba tells you to drink it, you drink it. And smile.
+
+beerID: mec003
+beerName: "Blue Milk Stout"
+beerType: Stout
+beerABV: 6.2%
+beerPicUrl:https://static.wikia.nocookie.net/starwars/images/f/fe/Blue_milk.png/revision/latest?cb=20180218204813
+desc: Fermented Bantha milk. Subtly sweet dark blue brew with low carbonation.
+
+***McAnally's***
+
+beerID: mac001
+beerName: Guinness
+beerType: Stout
+beerABV: 8.7%
+beerPicUrl: https://upload.wikimedia.org/wikipedia/commons/thumb/3/35/Guinness_Glass_2010.jpg/170px-Guinness_Glass_2010.jpg
+desc: has a malty sweetness and a hoppy bitterness, with notes of coffee and chocolate. A roasted flavor also comes through, courtesy of the roasted unmalted barley that goes into its brewing
+
+beerID: mac002
+beerName: "Mac's Ale"
+beerType: Pale Ale
+beerABV: 7.9%
+beerPicUrl: https://i.pinimg.com/originals/b9/37/d3/b937d30f6614466f1ec34b604328dc27.jpg
+desc: Goes with everything. Served warm.
+
+beerID: mac003
+beerName: "water"
+beerType: non-alcoholic
+beerABV: 0.0%
+beerPicUrl:https://domf5oio6qrcr.cloudfront.net/medialibrary/7909/conversions/b8a1309a-ba53-48c7-bca3-9c36aab2338a-thumb.jpg
+desc: it's water. We only make 2 beers at McAnally's.

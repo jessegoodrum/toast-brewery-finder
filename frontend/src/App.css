@@ -1,0 +1,6 @@
+.navbar {
+  display: flex;
+}
+.navbar>img {
+  max-width: 100px ;
+}

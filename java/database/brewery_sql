@@ -1,0 +1,63 @@
+
+
+BEGIN;
+
+
+CREATE TABLE IF NOT EXISTS public."users"
+(
+    "user_id" integer NOT NULL DEFAULT nextval('seq_user_id'::regclass),
+    "username" character varying(50) COLLATE pg_catalog."default" NOT NULL,
+    "password_hash" character varying(200) COLLATE pg_catalog."default" NOT NULL,
+    role character varying(50) COLLATE pg_catalog."default" NOT NULL,
+    "review_id "integer NOT NULL,
+    CONSTRAINT pk_user PRIMARY KEY (user_id)
+);
+
+CREATE TABLE IF NOT EXISTS public.brewery
+(
+    brewery_id serial NOT NULL,
+    brewery_img character varying(500),
+    brewery_hours character varying(200),
+    brewery_history character varying(500),
+    brewery_email character varying(100),
+    beer_id integer NOT NULL,
+    brewery_name character varying(200),
+    brewery_phone character varying(10),
+    brewery_website character varying(200),
+    brewery_active boolean,
+    brewery_address character varying(100),
+    CONSTRAINT brewery_email UNIQUE (brewery_email)
+);
+
+CREATE TABLE IF NOT EXISTS public.review
+(
+    review_id serial NOT NULL,
+    beer_id integer,
+    review character varying(150),
+    rating integer,
+    user_id integer,
+    PRIMARY KEY (review_id)
+);
+
+CREATE TABLE IF NOT EXISTS public.beers
+(
+    beer_id serial NOT NULL,
+    beer_img character varying(500),
+    brewery_id integer NOT NULL,
+    beer_name character varying(200),
+    beer_abv numeric(2, 1),
+    beer_type character varying(60),
+    beer_description character varying(200),
+    beer_active boolean
+);
+
+
+
+CREATE TABLE IF NOT EXISTS public.beers_brewery
+(
+    beers_brewery_id integer NOT NULL,
+    brewery_brewery_id serial NOT NULL
+);
+
+
+END;
